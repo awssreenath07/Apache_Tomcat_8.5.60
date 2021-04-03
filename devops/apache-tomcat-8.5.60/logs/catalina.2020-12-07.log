@@ -1,0 +1,47 @@
+07-Dec-2020 04:37:43.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+07-Dec-2020 04:37:43.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+07-Dec-2020 04:37:43.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+07-Dec-2020 04:37:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Dec-2020 04:37:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.14.203-156.332.amzn2.x86_64
+07-Dec-2020 04:37:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Dec-2020 04:37:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto.x86_64
+07-Dec-2020 04:37:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9.1+12-LTS
+07-Dec-2020 04:37:43.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+07-Dec-2020 04:37:43.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /srinath/devops/apache-tomcat-8.5.60
+07-Dec-2020 04:37:43.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /srinath/devops/apache-tomcat-8.5.60
+07-Dec-2020 04:37:43.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Dec-2020 04:37:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Dec-2020 04:37:43.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Dec-2020 04:37:43.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/srinath/devops/apache-tomcat-8.5.60/conf/logging.properties
+07-Dec-2020 04:37:43.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Dec-2020 04:37:43.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Dec-2020 04:37:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Dec-2020 04:37:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Dec-2020 04:37:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Dec-2020 04:37:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/srinath/devops/apache-tomcat-8.5.60
+07-Dec-2020 04:37:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/srinath/devops/apache-tomcat-8.5.60
+07-Dec-2020 04:37:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/srinath/devops/apache-tomcat-8.5.60/temp
+07-Dec-2020 04:37:43.201 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+07-Dec-2020 04:37:43.291 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Dec-2020 04:37:43.359 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Dec-2020 04:37:43.398 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1537 ms
+07-Dec-2020 04:37:43.533 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Dec-2020 04:37:43.533 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+07-Dec-2020 04:37:43.555 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/ROOT]
+07-Dec-2020 04:37:44.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/ROOT] has finished in [558] ms
+07-Dec-2020 04:37:44.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/docs]
+07-Dec-2020 04:37:44.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/docs] has finished in [50] ms
+07-Dec-2020 04:37:44.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/examples]
+07-Dec-2020 04:37:44.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/examples] has finished in [635] ms
+07-Dec-2020 04:37:44.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/host-manager]
+07-Dec-2020 04:37:44.856 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/host-manager] has finished in [56] ms
+07-Dec-2020 04:37:44.856 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/manager]
+07-Dec-2020 04:37:44.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/srinath/devops/apache-tomcat-8.5.60/webapps/manager] has finished in [47] ms
+07-Dec-2020 04:37:44.909 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Dec-2020 04:37:44.924 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1524 ms
+07-Dec-2020 04:43:44.968 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/srinath/devops/apache-tomcat-8.5.60/webapps/sample.war]
+07-Dec-2020 04:43:45.030 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/srinath/devops/apache-tomcat-8.5.60/webapps/sample.war] has finished in [68] ms
+07-Dec-2020 05:19:16.181 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Dec-2020 05:19:16.203 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Dec-2020 05:19:16.343 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Dec-2020 05:19:16.353 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
