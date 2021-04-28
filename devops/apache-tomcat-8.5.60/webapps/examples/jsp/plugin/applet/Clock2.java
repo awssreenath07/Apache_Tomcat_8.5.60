@@ -53,19 +53,13 @@ public class Clock2 extends Applet implements Runnable {
 
         try {
             setBackground(new Color(Integer.parseInt(getParameter("bgcolor"),16)));
-        } catch (Exception e) {
-            // Ignored
-        }
+        } catch (Exception E) { }
         try {
             handColor = new Color(Integer.parseInt(getParameter("fgcolor1"),16));
-        } catch (Exception e) {
-            // Ignored
-        }
+        } catch (Exception E) { }
         try {
             numberColor = new Color(Integer.parseInt(getParameter("fgcolor2"),16));
-        } catch (Exception e) {
-            // Ignored
-        }
+        } catch (Exception E) { }
         resize(300,300);              // Set clock window size
     }
 
@@ -95,7 +89,8 @@ public class Clock2 extends Applet implements Runnable {
             if (d<0) {
                 d=d+2*x+3;
                 x++;
-            } else {
+            }
+            else {
                 d=d+2*(x-y)+5;
                 x++;
                 y--;
